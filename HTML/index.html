@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <!-- Internal CSS -->
+    <style>
+        ul{
+            background-color: aqua;
+            list-style-type:square;
+        }
+        ol{
+            list-style-type:lower-alpha;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grp1">
+    <h1 style="color:navy ; text-align: center;">Welcome to HTML Basics Session.</h1>
+    <h2>MY Name is</h2>
+    <h3>Merin Thresia T</h3>
+    <h4>I'm From Kannur</h4>
+    <h5>Have a nice day</h5>
+    <h6>Thank you</h6>
+    <p id="para1">This is the first pargraph.MY text color is red</p>
+    <!-- Paragraph with inline CSS -->
+    <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">This is my first <b>Html Basics</b> Session.I think it is nice.</p>
+    </div>
+    <!-- unordered list tag -->
+    <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ul>
+    <!-- Ordered list tag -->
+    <ol>
+        <li>MIYA</li>
+        <li>APPU</li>
+        <li>KOCHU</li>
+        <li>FEDERIC</li>
+    </ol>
+    <!-- image tags -->
+    <img src="image/bilding.jpg" alt="billding" width="300" height="200">
+    <img src="image/city.jpg" alt="city" width="300" height="200">
+    <!-- Anchor tag -->
+    <br>
+    <a href="https://ictkerala.org/" target="_blank">Click here for ict academy</a>
+    <br>
+    <!-- input tags -->
+    <input type="text" name="" id="">
+    <!-- Table tags -->
+    <table class="tab1">
+        <thead>
+            <th>Name</th>
+            <th>Place</th>
+            <th>date of birth</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Appu</td>
+                <td>tvm</td>
+                <td>29/03/2000</td>
+            </tr>
+            <tr>
+                <td>minu</td>
+                <td>kochi</td>
+                <td>17/04/1997</td>
+            </tr>
+            <tr>
+                <td>fifu</td>
+                <td>kannur</td>
+                <td>04/07/1987</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Video tags -->
+    <video src="video/Revalation.mp4" width="300" height="200"></video>
+    <!-- <iframe src="video/Revalation.mp4" frameborder="3" title="discription"></iframe> -->
+    <br>
+    <!-- <embed type="video/webm" src="video/Revalation.mp4" width="400" height="300"> -->
+    <embed type="image/jpg" src="image/city.jpg" width="300" height="200">
+    <br>
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="4" min="0" max="10">4 out of 10</meter>
+    <br>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="50" max="100"> 50% </progress>
+    <br>
+    <svg width="150" height="150">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="purple" />
+    </svg>
+    <br>
+    <label for="cars">Choose a car:</label>
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+</body>
+</html>

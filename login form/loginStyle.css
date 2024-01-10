@@ -1,0 +1,44 @@
+.login-container{
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.bd{
+    background-image: url(image2/istockphoto-1189050047-1024x1024.jpg);
+}
+.form{
+    color: rgb(123, 52, 41);
+    border: 1.5px solid rgba(135, 75, 75, 0.929);
+    background-color:white;
+    font-size: smaller;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    transform: translate(70%,90%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 48px;
+    padding-bottom: 50px;
+    padding-right: 46px;
+
+}
+.form h1{
+    font-size: x-large;
+ }
+.form input{
+    color: black;
+    font-size: smaller;
+    background-color: whitesmoke;
+    padding: 1px 2px 1px 2px;
+    border: 1px solid black;
+    margin: 4px;
+}
+.form button{
+    font-size: smaller;
+    background-color: whitesmoke;
+    position: relative;
+    border: 1px solid black;
+    margin: 4px;
+}
